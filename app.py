@@ -14,7 +14,7 @@ def api_my_function():
         result3 = list(notebook.avg_Tenure())
 
         results_dict = {
-            'avg_Estimated_Salary': result0,
+            'avg_Estimated_Salary1': result0,
             'avg_age_who_Exited': result1,
             'avg_age_who_Not_Exited': result2,
             'avg_Tenure': result3
