@@ -3,9 +3,8 @@ from flask_cors import CORS
 import notebook
 app = Flask(__name__)
 
-CORS(app)
+CORS(app, origins="*")
 
-app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def api_my_function():
