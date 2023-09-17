@@ -1,8 +1,5 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS 
-from sklearn.preprocessing import MinMaxScaler
-import pandas as pd
-import keras
 import notebook
 app = Flask(__name__)
 
